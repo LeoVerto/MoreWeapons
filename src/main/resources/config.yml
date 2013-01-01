@@ -1,0 +1,5 @@
+messages:
+  prefix: 'MW>'
+  colors:
+    prefix: '7'
+    message: 'f'

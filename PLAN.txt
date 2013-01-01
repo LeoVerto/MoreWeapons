@@ -1,0 +1,43 @@
+---PLAN---
+
+[checklist system: t = texture, c = code, wc = warcompatible //<-- last step]
+
+
+Killstreaks:
+[c]		add a variable that tells the number of kills (kills=0 if dead) 
+	rewards:
+[t]		2k	posion
+[]		4k  care package (a chestminecart dropping from the sky; ) with a random killstreak inside
+[t]		11k	attack dogs(dogs with modded ai)
+[t]		7k	thunderStrike(we make the person get teleportet into the sky where from he clicks where he wants the thunder strike to go)
+[t]		9k	TNTStrike(stuffs)
+[t]		14k	juggernaut(u get diamond armor+sword, u get slowness_max)
+[t]		20k	Nuke(spawns TNT on the zone sealing, which drops to the ground and kills everybody)
+
+guns:
+[t]		AssultRifle
+[t]		bazooka shoots(we make an item shoot firecharges or firecharges from ghast //not sure if they are the same)
+[t]		grenade launcher(we will make an item shoot an item which will explode on impact)
+[t]		flamethrower(an automatic firearrow shooter; lowest range arrows; maybe spreadshot like the shotgun)
+[t]		handgun(semi automatic; unlimited ammo)
+[t]		shotgun(spreadshot; eats 4 arrows; shoots 10)
+[t]		SMG
+[t]		Rifle
+[t]		Sniper
+	
+equipment:
+[t]		c4(we make it possible to place TNT even though the destroyblcks is false; we add a "remote" wich activates the last block of tnt placed)
+[t]		grenade(throwable; egg spawning a powered TNT) DONE!
+[t]		stungrenade(throwable; lot of posions;) Leo knows...
+[t]		smokegrenade(throwable; lots of smoke particles)  // maybe we should make it stop the fire of a molotov
+[t]		molotov(throwable; spawns fire in a radius of 3 blocks [-2,-1;-2,0;-2,1;-1,-2;-1,-1;-1,0;-1,1;-1,2;0,-2;0,-1;0,0;0,1;0,2;1,-2;1,-1;1,0;1,1;1,2;2,-1;2,0;2,1];)
+[t?]	tp endpearl (we add smoke to the position the player left)
+	
+extras:	
+[t]    Scope(pumpkinblur)
+(this should be added in toms original code)add an objective platform for war, which allows u to return flags here and destroy it with the bomb
+
+classes/loadouts:
+[t]		we make the loadouts of every person realative to items in an endchest, we do the same with killstrreaks
+
+Example Ender Chest: <http://i.imgur.com/fFsxx.png>	
