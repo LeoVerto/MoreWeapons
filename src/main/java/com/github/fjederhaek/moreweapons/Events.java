@@ -1,4 +1,4 @@
-package com.github.fjederhaek.moreweapons;
+/*package com.github.fjederhaek.moreweapons;
 
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
@@ -33,7 +33,7 @@ public class Events implements Listener {
      grenade.setVelocity(p.getLocation().getDirection().normalize().multiply(2));
      }
      }
-     */
+     
     @EventHandler(priority = EventPriority.HIGH)
     public void onPlayerInteractChopperGunner(PlayerInteractEvent evt) {
         if (Killstreaks.useKillstreak(evt.getPlayer(), "choppergunner")) {
@@ -111,4 +111,4 @@ public class Events implements Listener {
             }
         }
     }
-}
+}*/
